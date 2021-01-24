@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mano Super Market</string>
+    <string name="title_home">Home</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_products">Products</string>
+    <string name="title_marketing">Marketing</string>
+    <string name="title_account">Account</string>
+    <string name="plan_msg">Your Plan <b>100% FREE</b></string>
+    <string name="share_link"><u>sellplus.com/mano</u></string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:elevation="20dp"
+    android:background="@drawable/curved_back"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/order_label"
+        style="@style/TextStyleBoldBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textSize="14sp"
+        android:text="Order #281217"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/newBox"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/new_box"
+        style="@style/TextStyleBoldCapsCen"
+        android:textColor="@android:color/white"
+        android:layout_width="36dp"
+        android:layout_height="16dp"
+        android:textSize="10sp"
+        android:text="New"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/order_label"
+        />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_label"/>
+
+    <TextView
+        android:id="@+id/item_quant"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextStyleNormal"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="@color/warm_grey"
+        android:lineSpacingExtra="0sp"
+        app:layout_constraintTop_toBottomOf="@+id/order_label"
+        app:layout_constraintStart_toEndOf="@+id/item_image"
+        android:text="1 item" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextStyleBold"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textColor="@color/niceBlue"
+        android:lineSpacingExtra="7sp"
+        app:layout_constraintTop_toBottomOf="@+id/item_quant"
+        app:layout_constraintStart_toEndOf="@+id/item_image"
+        android:text="₹79" />
+
+    <TextView
+        android:id="@+id/datestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextStyleNormal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="@color/warm_grey"
+        android:lineSpacingExtra="0sp"
+        android:gravity="end"
+        android:text="Today, 11:11 PM" />
+    <TextView
+        android:id="@+id/codBox"
+        style="@style/TextStyleBoldCapsCen"
+        app:layout_constraintTop_toBottomOf="@+id/datestamp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/cod_box"
+        android:text="COD"
+        android:textColor="@color/dustyOrange"
+        android:textSize="14sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

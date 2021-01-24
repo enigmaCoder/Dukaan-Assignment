@@ -1,0 +1,82 @@
+{
+  "headersData": [
+    {
+      "headerTitle": "Overview",
+      "headerSubTitle": "Last Week",
+      "summary": [
+        {
+          "summaryTitle": "Orders",
+          "summaryData": "33"
+        },
+        {
+          "summaryTitle": "Total Sales",
+          "summaryData": "₹2918"
+        },
+        {
+          "summaryTitle": "Store Views",
+          "summaryData": "301"
+        },
+        {
+          "summaryTitle": "Product Views",
+          "summaryData": "19121"
+        }
+      ],
+      "orderSummary": [],
+      "arrowType": "icons_global_arrow"
+    },
+    {
+      "headerTitle": "Active Orders",
+      "headerSubTitle": "View All",
+      "arrowType": "icons_global_arrow_left",
+      "summary": [],
+      "orderSummary": [
+        {
+          "orderStatus": "Shipped",
+          "quantity": 3,
+          "orderDetails": [],
+          "isSelected": false
+        },
+        {
+          "orderStatus": "Accepted",
+          "quantity": 129,
+          "orderDetails": [],
+          "isSelected": false
+        },
+        {
+          "orderStatus": "Pending",
+          "quantity": 129,
+          "orderDetails": [
+            {
+              "orderNo": "Order #281217",
+              "orderImgId": "rectangle",
+              "orderQuantity": 1,
+              "orderPrice": 79,
+              "orderPaymentStatus": "COD",
+              "orderDate": "Today, 11:11 PM",
+              "isOrderNew": true
+            },
+            {
+              "orderNo": "Order #281134",
+              "orderImgId": "rectangle_2",
+              "orderQuantity": 1,
+              "orderPrice": 399,
+              "orderPaymentStatus": "PAID",
+              "orderDate": "Yesterday, 12:10 PM",
+              "isOrderNew": true
+            },
+            {
+              "orderNo": "Order #230123",
+              "orderImgId": "rectangle_3",
+              "orderQuantity": 1,
+              "orderPrice": 410,
+              "orderPaymentStatus": "PAID",
+              "orderDate": "Yesterday, 9:12 PM",
+              "isOrderNew": false
+            }
+          ],
+          "isSelected": true
+        }
+      ]
+    }
+  ]
+}
